@@ -7,6 +7,9 @@ def add(x, y):
 # This function multiplies two numbers
 def multiply(x, y):
    return x * y
+# This function subtracts two numbers 
+def subtract(x, y):
+   return x - y
 # This function divides two numbers
 def divide(x, y):
    return x / y
@@ -28,5 +31,7 @@ elif choice == '4':
    print(num1,"/",num2,"=",divide(num1,num2))
 elif choice == '3':
    print(num1,"*",num2,"=", multiply(num1,num2))
+elif choice =='2':
+    print(num1,"-",num2,"=", subtract(num1,num2))
 else:
    print("Invalid input ",choice)
